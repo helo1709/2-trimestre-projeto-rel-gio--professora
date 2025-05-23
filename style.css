@@ -59,6 +59,12 @@ body {
 .botoes {
     display: block;
 }
+
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
+
 @media screen and (mid-widht:768px){
     .botoes{
         display: flex;
@@ -66,4 +72,5 @@ body {
     .botao:first-child{
         border-radius: 40px 0 0 0;
     }
-}
+
+} 
