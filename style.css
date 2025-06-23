@@ -78,6 +78,22 @@ body {
 .abas-conteudo.ativo{
     display: block;
 }
+
+.abas-conteudo{
+    display: nome;
+}
+
+.abas-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+
+.abas-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
+}
+
 @media screen and (mid-widht:768px){
     .botoes{
         display: flex;
